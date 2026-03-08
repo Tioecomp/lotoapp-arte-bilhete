@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Share2, Download, AlertTriangle, RefreshCw, Camera } from 'lucide-react';
 
 type ResultViewProps = {

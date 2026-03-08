@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { Camera, Image as ImageIcon, Lightbulb, RefreshCw, Wand2, Upload } from 'lucide-react';
+import { useState, useRef } from 'react';
+import { Camera, Image as ImageIcon, Lightbulb, RefreshCw, Wand2 } from 'lucide-react';
 import { CameraModal } from './CameraModal';
 
 export function UploadView() {

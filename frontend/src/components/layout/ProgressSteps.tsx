@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 type ProgressStepsProps = {
     currentStep: 1 | 2;

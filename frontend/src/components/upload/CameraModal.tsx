@@ -1,5 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react';
-import { Camera, X } from 'lucide-react';
+import { useRef, useEffect, useState } from 'react';
+import { X } from 'lucide-react';
 
 type CameraModalProps = {
     isOpen: boolean;
