@@ -22,7 +22,8 @@ try {
  * @returns Base64 string of the final generated image
  */
 export async function generateArt(lottery: string, ticketImageBuffer: Buffer, data: Record<string, string>): Promise<string> {
-    const templateName = lottery.toUpperCase();
+    let templateName = lottery.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+    if (templateName === 'MILIONARIA') templateName = '+MILIONARIA';
     const config = templates[templateName];
 
     if (!config) {
