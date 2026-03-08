@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-import visionRoutes from './routes/visionRoutes.js';
+import visionRoutes from './routes/visionRoutes';
 
 app.use(cors());
 app.use(express.json({ limit: '50mb' })); // Necessário para imagens em base64 grandes

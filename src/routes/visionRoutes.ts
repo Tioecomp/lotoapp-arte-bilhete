@@ -1,7 +1,7 @@
 import { Router, Request, Response } from 'express';
-import { identificarBilhete } from '../services/visionService.js';
-import { processImage } from '../services/imageProcessingService.js';
-import { generateArt } from '../services/canvasService.js';
+import { identificarBilhete } from '../services/visionService';
+import { processImage } from '../services/imageProcessingService';
+import { generateArt } from '../services/canvasService';
 
 const router = Router();
 

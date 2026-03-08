@@ -3,18 +3,15 @@
     "version": "1.0.0",
     "description": "",
     "main": "dist/index.js",
-    "type": "module",
     "scripts": {
         "start": "node dist/index.js",
-        "dev": "nodemon src/index.ts",
+        "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
         "build": "tsc"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@anthropic-ai/sdk": "^0.20.0",
-        "@google/genai": "latest",
         "@napi-rs/canvas": "^0.1.96",
         "@supabase/supabase-js": "^2.43.1",
         "cors": "^2.8.5",
@@ -31,6 +28,7 @@
         "@types/node": "^20.12.11",
         "nodemon": "^3.1.0",
         "ts-node": "^10.9.2",
+        "ts-node-dev": "^2.0.0",
         "typescript": "^5.4.5"
     }
 }
