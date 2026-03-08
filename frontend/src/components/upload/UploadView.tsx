@@ -2,7 +2,11 @@ import { useState, useRef } from 'react';
 import { Camera, Image as ImageIcon, Lightbulb, RefreshCw, Wand2 } from 'lucide-react';
 import { CameraModal } from './CameraModal';
 
-export function UploadView() {
+type UploadViewProps = {
+    onGenerate: (file: File, useAutoCorrection: boolean) => void;
+};
+
+export function UploadView({ onGenerate }: UploadViewProps) {
     const [selectedFile, setSelectedFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [isCameraOpen, setIsCameraOpen] = useState(false);
@@ -99,6 +103,9 @@ export function UploadView() {
             </div>
 
             <button
+                onClick={() => {
+                    if (selectedFile) onGenerate(selectedFile, useAutoCorrection);
+                }}
                 disabled={!selectedFile}
                 className={`w-full p-[17px] rounded-[14px] font-['Inter',sans-serif] text-[15px] font-extrabold flex items-center justify-center gap-2 transition-all shadow-[0_4px_14px_rgba(0,0,0,0.15)]
           ${selectedFile

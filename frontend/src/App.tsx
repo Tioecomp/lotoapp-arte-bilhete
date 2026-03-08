@@ -6,6 +6,19 @@ import { ResultView } from './components/upload/ResultView';
 
 function App() {
     const [currentStep, setCurrentStep] = useState<1 | 2>(1);
+    const [isGenerating, setIsGenerating] = useState(false);
+
+    const handleGenerate = async (file: File, useAutoCorrection: boolean) => {
+        setCurrentStep(2);
+        setIsGenerating(true);
+
+        // This is a placeholder for the actual API call
+        console.log("Starting generation process with file:", file.name, "Auto-correction:", useAutoCorrection);
+        setTimeout(() => {
+            setIsGenerating(false);
+            // We would set the generated image URL here from the response
+        }, 3000);
+    };
 
     return (
         <Layout>
@@ -14,8 +27,13 @@ function App() {
             </div>
 
             <div className="relative">
-                {currentStep === 1 && <UploadView />}
-                {currentStep === 2 && <ResultView onReset={() => setCurrentStep(1)} />}
+                {currentStep === 1 && <UploadView onGenerate={handleGenerate} />}
+                {currentStep === 2 && (
+                    <ResultView
+                        onReset={() => setCurrentStep(1)}
+                        imageUrl={!isGenerating ? "https://placehold.co/600x400/1e2f4a/e8f0fe?text=FOTO+PROCESSADA" : undefined}
+                    />
+                )}
             </div>
         </Layout>
     );
