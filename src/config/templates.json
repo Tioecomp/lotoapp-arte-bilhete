@@ -2,16 +2,16 @@
     "MEGA-SENA": {
         "background": "mega-sena-bg.png",
         "ticket": {
-            "x": 60,
-            "y": 420,
-            "width": 550,
-            "height": 450,
+            "x": 50,
+            "y": 520,
+            "width": 560,
+            "height": 1150,
             "rotation": 0
         },
         "texts": {
             "CONCURSO": {
-                "x": 630,
-                "y": 105,
+                "x": 560,
+                "y": 38,
                 "font": "400 32px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "left",
@@ -19,40 +19,40 @@
             },
             "PREMIO": {
                 "x": 540,
-                "y": 275,
-                "font": "bold 65px Inter, sans-serif",
+                "y": 220,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
-                "default": "R$ 0,00"
+                "default": "R$ Consulte"
             },
             "JOGOS": {
-                "x": 860,
-                "y": 445,
+                "x": 812,
+                "y": 770,
                 "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "DEZENAS": {
-                "x": 860,
-                "y": 600,
+                "x": 812,
+                "y": 1020,
                 "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "PARTICIPANTES": {
-                "x": 860,
-                "y": 750,
+                "x": 812,
+                "y": 1270,
                 "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "VALOR_COTA": {
-                "x": 860,
-                "y": 915,
-                "font": "bold 45px Inter, sans-serif",
+                "x": 812,
+                "y": 1520,
+                "font": "bold 50px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "R$ 0,00"
@@ -62,57 +62,57 @@
     "QUINA": {
         "background": "quina-bg.png",
         "ticket": {
-            "x": 100,
-            "y": 500,
-            "width": 550,
-            "height": 450,
+            "x": 50,
+            "y": 520,
+            "width": 560,
+            "height": 1150,
             "rotation": 0
         },
         "texts": {
             "CONCURSO": {
-                "x": 620,
-                "y": 185,
-                "font": "400 24px Inter, sans-serif",
+                "x": 560,
+                "y": 38,
+                "font": "400 32px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "left",
                 "default": "0000"
             },
             "PREMIO": {
                 "x": 540,
-                "y": 380,
-                "font": "bold 65px Inter, sans-serif",
+                "y": 220,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
-                "default": "R$ 0,00"
+                "default": "R$ Consulte"
             },
             "JOGOS": {
-                "x": 750,
-                "y": 500,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 770,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "DEZENAS": {
-                "x": 750,
-                "y": 620,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 1020,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "PARTICIPANTES": {
-                "x": 750,
-                "y": 730,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 1270,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "VALOR_COTA": {
-                "x": 750,
-                "y": 850,
-                "font": "bold 40px Inter, sans-serif",
+                "x": 812,
+                "y": 1520,
+                "font": "bold 50px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "R$ 0,00"
@@ -122,65 +122,65 @@
     "+MILIONARIA": {
         "background": "milionaria-bg.png",
         "ticket": {
-            "x": 80,
-            "y": 480,
-            "width": 550,
-            "height": 450,
+            "x": 50,
+            "y": 520,
+            "width": 560,
+            "height": 1150,
             "rotation": 0
         },
         "texts": {
             "CONCURSO": {
-                "x": 620,
-                "y": 120,
-                "font": "400 24px Inter, sans-serif",
+                "x": 560,
+                "y": 38,
+                "font": "400 32px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "left",
                 "default": "0000"
             },
             "PREMIO": {
                 "x": 540,
-                "y": 300,
-                "font": "bold 65px Inter, sans-serif",
+                "y": 220,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
-                "default": "R$ 0,00"
+                "default": "R$ Consulte"
             },
             "JOGOS": {
-                "x": 860,
-                "y": 480,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 720,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "DEZENAS": {
-                "x": 860,
-                "y": 620,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 940,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "TREVOS": {
-                "x": 860,
-                "y": 740,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 1160,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "PARTICIPANTES": {
-                "x": 860,
-                "y": 860,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 1380,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "VALOR_COTA": {
-                "x": 860,
-                "y": 1000,
-                "font": "bold 40px Inter, sans-serif",
+                "x": 812,
+                "y": 1600,
+                "font": "bold 50px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "R$ 0,00"
@@ -190,57 +190,57 @@
     "DIA DE SORTE": {
         "background": "dia-de-sorte-bg.png",
         "ticket": {
-            "x": 80,
-            "y": 480,
-            "width": 550,
-            "height": 450,
+            "x": 50,
+            "y": 520,
+            "width": 560,
+            "height": 1150,
             "rotation": 0
         },
         "texts": {
             "CONCURSO": {
-                "x": 620,
-                "y": 185,
-                "font": "400 24px Inter, sans-serif",
+                "x": 560,
+                "y": 38,
+                "font": "400 32px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "left",
                 "default": "0000"
             },
             "PREMIO": {
                 "x": 540,
-                "y": 380,
-                "font": "bold 65px Inter, sans-serif",
+                "y": 220,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
-                "default": "R$ 0,00"
+                "default": "R$ Consulte"
             },
             "JOGOS": {
-                "x": 820,
-                "y": 500,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 770,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "DEZENAS": {
-                "x": 820,
-                "y": 620,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 1020,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "PARTICIPANTES": {
-                "x": 820,
-                "y": 780,
-                "font": "bold 50px Inter, sans-serif",
+                "x": 812,
+                "y": 1270,
+                "font": "bold 60px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "-"
             },
             "VALOR_COTA": {
-                "x": 820,
-                "y": 920,
-                "font": "bold 40px Inter, sans-serif",
+                "x": 812,
+                "y": 1520,
+                "font": "bold 50px Inter, sans-serif",
                 "color": "#FFFFFF",
                 "align": "center",
                 "default": "R$ 0,00"
