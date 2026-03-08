@@ -14,14 +14,15 @@
     "license": "ISC",
     "dependencies": {
         "@anthropic-ai/sdk": "^0.20.0",
-        "@google/genai": "^0.1.1",
+        "@google/genai": "latest",
+        "@napi-rs/canvas": "^0.1.96",
         "@supabase/supabase-js": "^2.43.1",
-        "canvas": "^2.11.2",
         "cors": "^2.8.5",
         "dotenv": "^16.4.5",
         "express": "^4.19.2",
         "multer": "^1.4.5-lts.1",
-        "openai": "^4.40.0"
+        "openai": "^4.40.0",
+        "sharp": "^0.34.5"
     },
     "devDependencies": {
         "@types/cors": "^2.8.17",

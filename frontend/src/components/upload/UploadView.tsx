@@ -3,7 +3,7 @@ import { Camera, Image as ImageIcon, Lightbulb, RefreshCw, Wand2 } from 'lucide-
 import { CameraModal } from './CameraModal';
 
 type UploadViewProps = {
-    onGenerate: (file: File, useAutoCorrection: boolean) => void;
+    onGenerate: (file: File) => void;
 };
 
 export function UploadView({ onGenerate }: UploadViewProps) {
@@ -104,7 +104,7 @@ export function UploadView({ onGenerate }: UploadViewProps) {
 
             <button
                 onClick={() => {
-                    if (selectedFile) onGenerate(selectedFile, useAutoCorrection);
+                    if (selectedFile) onGenerate(selectedFile);
                 }}
                 disabled={!selectedFile}
                 className={`w-full p-[17px] rounded-[14px] font-['Inter',sans-serif] text-[15px] font-extrabold flex items-center justify-center gap-2 transition-all shadow-[0_4px_14px_rgba(0,0,0,0.15)]
